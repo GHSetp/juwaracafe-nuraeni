@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JUWARA CAFE — Kopi Sehat & Peluang Bisnis</title>
+  <meta name="description" content="Kopi Juwara Cafe dengan Ganoderma dan creamer minyak kelapa, plus peluang penghasilan dari program kopi 1-1-1." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">SH Juwara Cafe — Nuraeni [0881-0258-92982]</a>
+      <nav class="nav">
+        <a href="#hero">Beranda</a>
+        <a href="#benefits">Keunggulan</a>
+        <a href="#video">Video</a>
+        <a href="#program">Program 1–1–1</a>
+        <a href="#forms" class="btn-primary btn-small">Pesan / Join</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Ngopi Sehat, Hidup Lebih Mantap.</h1>
+          <p>
+            Juwara Cafe bukan cuma kopi instan biasa. Biji kopi Arabika Brazil, Ganoderma,
+            creamer minyak kelapa, dan gula tebu asli dalam satu cangkir.
+          </p>
+          <div class="hero-cta">
+            <button class="btn-primary" onclick="openWa('coba')">
+              Saya Mau Coba Kopinya
+            </button>
+            <button class="btn-ghost" onclick="openWa('bisnis')">
+              Saya Mau Info Passive Income
+            </button>
+          </div>
+          <p class="hero-note">
+            *Konsultasi gratis & santai dulu, nggak langsung wajib daftar.
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <!-- Gambar hero kopi: Lyn bisa ganti sendiri -->
+          <img src="assets/images/hero-kopi.png" alt="Secangkir Juwara Cafe" loading="lazy" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section id="benefits" class="section section-grey">
+      <div class="container">
+        <h2 class="section-title">Kenapa Juwara Cafe Beda?</h2>
+        <p class="section-sub">
+          Komposisi kopi dirancang untuk rasa yang enak dan nyaman diminum jangka panjang.
+        </p>
+
+        <ol class="benefit-grid">
+            <li class="benefit-item">
+                <img src="assets/images/benefit-1.png" alt="Biji Kopi Arabika Brazil" class="benefit-img">
+                <div class="benefit-text">
+                <h3>Biji Kopi Arabika Brazil</h3>
+                <p>Menggunakan 100% biji kopi Arabika Brazil yang diproses dengan standard tinggi. 
+                    Rasanya lebih halus dan aromanya kopi banget tanpa campuran essence aneh-aneh.</p>
+                </div>
+            </li>
+
+            <li class="benefit-item">
+                <img src="assets/images/benefit-2.png" alt="Yung Kien Ganoderma" class="benefit-img">
+                <div class="benefit-text">
+                <h3>Yung Kien Ganoderma</h3>
+                <p>Ekstrak Ganoderma pilihan dari Taiwan membantu menunjang daya tahan tubuh.
+                    Cocok buat yang pengin tetap fit meski aktivitas padat.</p>
+                </div>
+            </li>
+
+            <li class="benefit-item">
+                <img src="assets/images/benefit-3.png" alt="Creamer Minyak Kelapa" class="benefit-img">
+                <div class="benefit-text">
+                <h3>Creamer Minyak Kelapa</h3>
+                <p>Creamer berasal dari minyak kelapa nabati tanpa lemak trans. 
+                    Bikin tekstur kopi lebih creamy tapi rasa tetap natural dan ringan.</p>
+                </div>
+            </li>
+
+            <li class="benefit-item">
+                <img src="assets/images/benefit-4.png" alt="Gula Tebu Asli" class="benefit-img">
+                <div class="benefit-text">
+                <h3>Gula Tebu Asli</h3>
+                <p>Terbuat dari gula tebu asli dengan kadar alami, pas buat yang ingin rasa manis lebih lembut tanpa efek ‘eneg’ di tenggorokan.</p>
+                </div>
+            </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- VARIAN PRODUK -->
+    <section id="produk" class="section">
+      <div class="container">
+        <h2 class="section-title">Varian Juwara Cafe</h2>
+        <p class="section-sub">
+          Satu box berisi 20 sachet. Tinggal sobek, seduh dengan air panas, selesai.
+        </p>
+
+        <div class="products-grid">
+          <article class="product-card">
+            <img src="assets/images/juwara-4in1.jpg" alt="Juwara Cafe 4 in 1" loading="lazy" />
+            <div class="product-body">
+              <h3>Juwara Cafe 4 in 1</h3>
+              <p class="price">Isi 20 sachet / box</p>
+              <ul class="product-list">
+                <li>Kopi Arabika + Ganoderma + creamer + gula tebu.</li>
+                <li>Rasa creamy manis, cocok untuk peminum kopi santai.</li>
+                <li>Pas diminum pagi hari atau saat kerja.</li>
+              </ul>
+              <button class="btn" onclick="openWa('coba4')">Tanya Harga 4 in 1</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/images/juwara-3in1.jpg" alt="Juwara Cafe 3 in 1" loading="lazy" />
+            <div class="product-body">
+              <h3>Juwara Cafe 3 in 1</h3>
+              <p class="price">Isi 20 sachet / box</p>
+              <ul class="product-list">
+                <li>Tanpa gula tambahan, tetap creamy dan nikmat.</li>
+                <li>Lebih fleksibel untuk yang menjaga asupan gula.</li>
+                <li>Cocok untuk penyembuhan.</li>
+              </ul>
+              <button class="btn" onclick="openWa('coba3')">Tanya Harga 3 in 1</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="section">
+      <div class="container">
+        <div>
+          <h2 class="section-title">Video Profil & Penjelasan</h2>
+          <p class="section-sub">
+            Tonton dulu video singkat tentang perusahaan Shuang Hor dan mengapa harus Ganoderma dari Shuang Hor?
+          </p>
+        </div>
+
+        <div class="video-profil">
+            <video controls playsinline>
+                <source src="assets/video/shuang hor.mp4" type="video/mp4">
+                Browser kamu tidak mendukung tag video.
+            </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI (placeholder) -->
+      <section id="testimoni" class="section">
+        <div class="container">
+          <h2 class="section-title">Testimoni Video</h2>
+          <p class="section-sub">
+            Beberapa pengalaman dari mereka yang sudah mencoba Juwara Cafe.
+            Dari mulai pengidap asma, diabetes, hipertensi, jantung, hingga stroke dan segala macam penyakit lainnya.
+          </p>
+
+          <div class="testi-video-grid">
+
+            <!-- Testimoni 1 -->
+            <article class="card testi-video-card">
+              <p class="testi-title">
+                <strong>Bu Sunariah, Cilegon</strong> — tadinya dada saya nyeri, sakit, dan sesak napas, sekarang sudah tidak sakit dan nyeri lagi.
+              </p>
+              <div class="testi-video-wrap">
+                <video controls playsinline>
+                  <source src="assets/video/sunariyah.mp4" type="video/mp4">
+                  Browser kamu tidak mendukung tag video.
+                </video>
+              </div>
+            </article>
+
+            <!-- Testimoni 2 -->
+            <article class="card testi-video-card">
+              <p class="testi-title">
+                <strong>Drh. Handoko, Sidoarjo</strong> — penderita diabetes,  dengan gula darah di angkat 271. Kemudian saya konsumsi ini dari Dokter Anas/upline saya. Setelah konsumsi 8 hari, pagi dan sore, varian kopi pait 3in1 ini turun menjadi 150-an 117 Mg/dl. Dan darah tinggi yang dulu di atas 200 juga sudah turun.
+              </p>
+              <div class="testi-video-wrap">
+                <video controls playsinline>
+                  <source src="assets/video/handoko.mp4" type="video/mp4">
+                  Browser kamu tidak mendukung tag video.
+                </video>
+              </div>
+            </article>
+
+            <!-- Testimoni 3 -->
+            <article class="card testi-video-card">
+              <p class="testi-title">
+                <strong>Saida Pasande, Toraja Utara</strong> — kondisi fisik drop, punya keluhan asam lambung, tipes, sering kelelahan, dan juga peredaran darah kurang lancar. Pada 2019 pernah sedot darah dari paru-paru. Ujung kaki hingga pundak sering terasa sakit. Setelah konsumsi SH Juwara Cafe & Soya Protein selama hampir setahun keluhan dari berbagai penyakit saya berangsur-angsur pulih. Mata yang sebelumnya silinder dan plus, tidak bisa tanpa kacamata saat di tempat becahaya, tapi sekarang sudah bisa melepas kacamata dan merasa aman tanpa kacamata.
+              </p>
+              <div class="testi-video-wrap">
+                <video controls playsinline>
+                  <source src="assets/video/saida.mp4" type="video/mp4">
+                  Browser kamu tidak mendukung tag video.
+                </video>
+              </div>
+            </article>
+
+            <!-- Testimoni 4 -->
+            <article class="card testi-video-card">
+              <p class="testi-title">
+                <strong>Ibu Tariyati & Bpk Tyas Sutisna, Suami-Istri</strong> — Bpk Tyas, mengalami kembung dan sakit di bawah perut akibat Batu Ginjal & Prostat, baik sebelum dan setelah operasi pun tetap sama. Setelah konsumsi 2 boks SH Juwara Cafe, sudah tidak kembung dan tidak sakit di bawah perut lagi.
+              </p>
+              <div class="testi-video-wrap">
+                <video controls playsinline>
+                  <source src="assets/video/suaminya.mp4" type="video/mp4">
+                  Browser kamu tidak mendukung tag video.
+                </video>
+              </div>
+            </article>
+
+            <!-- Testimoni 5 -->
+            <article class="card testi-video-card">
+              <p class="testi-title">
+                <strong>Bpk Man, Malaysia</strong> — ada benjolan di hidung sebelah kiri, sulit bernapas. Setelah minum CEO CAFE/SH Juwara Cafe, detoknya berupa sakit kepala dan demam, keluar lendir yang sangat banyak dari hidung dan juga keluar bau busuk selama beberapa hari. Tapi setelah terus konsumsi selama beberapa hari, lendir yang keluar sudah berhenti, migrainnya juga hilang, dan dapat bernapas kembali. Setelah diperiksa di Klinik, benjolannya sudah hilang/pecah.
+              </p>
+              <div class="testi-video-wrap">
+                <video controls playsinline>
+                  <source src="assets/video/man.mp4" type="video/mp4">
+                  Browser kamu tidak mendukung tag video.
+                </video>
+              </div>
+            </article>
+
+            <!-- Tambah lagi kalau mau -->
+          </div>
+        </div>
+      </section>
+
+
+    <!-- PROGRAM 1-1-1 -->
+    <section id="program" class="section section-grey">
+      <div class="container">
+        <h2 class="section-title">Program Kopi 1–1–1</h2>
+        <p class="section-sub">
+          Konsep sederhana: <strong>minum sendiri, ajak teman, lakukan rutin.</strong>
+          Potensi penghasilan datang dari akumulasi jaringan pecinta kopi.
+        </p>
+
+        <div class="program-grid">
+          <ol class="program-steps">
+            <li>Setiap bulan, konsumsi minimal <strong>1 box Juwara Cafe</strong> (boleh untuk sendiri atau dijual lagi).</li>
+            <li>Ajak minimal <strong>1 orang teman</strong> per bulan untuk melakukan hal yang sama.</li>
+            <li>Ulangi pola ini selama <strong>12 bulan berturut-turut</strong>.</li>
+          </ol>
+          <div class="program-note">
+            <p>
+              Dengan pola sederhana ini, perusahaan menyiapkan skema bonus dan passive income
+              yang bisa bertumbuh seiring berkembangnya jaringan. Detail angka dan simulasi
+              akan dijelaskan langsung ole Niaa/mentor supaya jelas dan sesuai dengan kebijakan terbaru.
+            </p>
+
+             <button class="btn-primary" onclick="openWa('bisnis')">
+                Minta Simulasi Program 1-1-1
+             </button>
+
+          </div>
+
+          <!-- GAMBAR MENTAL -->
+          <section class="section">
+            <div class="container">
+              <img
+              src="assets/images/dua-mental.jpg"
+              alt="Mental Miskin vs Mental Kaya"
+              class="dua-mental"
+              >
+            </div>
+          </section>
+
+          <!-- VIDEO PENJELASAN PROGRAM 1-1-1 -->
+            <section id="video-penjelasan" class="section">
+              <div class="container">
+                <h2 class="section-title">Penjelasan Program 1-1-1</h2>
+                <p class="section-sub">
+                  Video singkat yang menjelaskan cara kerja program JuwaraCafe 1-1-1.
+                </p>
+
+                <div class="video-wrapper">
+                  <video controls playsinline>
+                    <source src="assets/video/penjelasan-111.mp4" type="video/mp4">
+                    Browser kamu tidak mendukung tag video.
+                  </video>
+                </div>
+              </div>
+            </section>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LEGALITAS & INFO -->
+    <section id="legal" class="section">
+      <div class="container">
+        <h2 class="section-title">Legalitas</h2>
+
+        <h3>Legalitas Produk & Perusahaan</h3>
+        <p>
+          SH Juwara Cafe telah memiliki izin edar resmi BPOM dengan nomor registrasi.
+        </p>
+
+        <!-- Tambah video di bawah keterangan legalitas -->
+        <div class="video-legalitas">
+          <video controls playsinline>
+            <source src="assets/video/legalitas.mp4" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+          </video>
+        </div>
+
+        <p>
+          Pastikan selalu membeli dari mitra resmi agar mendapatkan produk asli
+          dan layanan yang jelas.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- FORMS / CTA BAWAH -->
+    <section id="forms" class="section section-cta">
+      <div class="container forms-grid">
+        <div class="cta-box">
+          <h2>Pesan Kopi Sekarang</h2>
+          <p>
+            Isi data singkat di bawah, lalu klik kirim. Browser akan mengarahkan ke WhatsApp
+            dengan pesan yang sudah otomatis terisi.
+          </p>
+          <form onsubmit="return sendForm(event, 'cobaForm') " id="cobaForm" class="cta-form">
+            <label>
+              Nama
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Pilihan Varian
+              <select name="varian">
+                <option value="4 in 1">4 in 1 (dengan gula)</option>
+                <option value="3 in 1">3 in 1 (tanpa gula)</option>
+                <option value="Keduanya">Keduanya</option>
+              </select>
+            </label>
+            <label>
+              Catatan Tambahan (opsional)
+              <textarea name="note" rows="3"></textarea>
+            </label>
+            <button type="submit" class="btn-primary">Kirim via WhatsApp</button>
+          </form>
+        </div>
+
+        <div class="cta-box">
+          <h2>Tertarik Program Bisnis?</h2>
+          <p>
+            Lengkapi data singkat, Lyn akan kirimkan penjelasan ringkas program kopi 1–1–1
+            dan contoh simulasi penghasilan.
+          </p>
+          <form onsubmit="return sendForm(event, 'bisnisForm')" id="bisnisForm" class="cta-form">
+            <label>
+              Nama
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Kota / Domisili
+              <input type="text" name="city" />
+            </label>
+            <label>
+              Catatan Pertanyaan (opsional)
+              <textarea name="question" rows="3"></textarea>
+            </label>
+            <button type="submit" class="btn-primary">Chat WA Sekarang</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SH JuwaraCafe by N. Mitra resmi Shuang Hor.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <a
+    href="https://wa.me/62881025892982"
+    class="wa-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat WhatsApp"
+  >
+    <img src="assets/images/wa-icon.png" alt="WhatsApp" class="wa-float-img">
+</a>
+
+</body>
+</html>
